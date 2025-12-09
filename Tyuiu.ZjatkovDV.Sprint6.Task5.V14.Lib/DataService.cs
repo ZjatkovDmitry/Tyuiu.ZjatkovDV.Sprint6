@@ -8,7 +8,7 @@ namespace Tyuiu.ZjatkovDV.Sprint6.Task5.V14.Lib
         public double[] LoadFromDataFile(string path)
         {
             return File.ReadAllText(path)
-                      .Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                      .Split('\n', StringSplitOptions.RemoveEmptyEntries)
                       .Select(s => Math.Round(double.Parse(s, CultureInfo.InvariantCulture), 3))
                       .Where(s => s >= 10)
                       .ToArray();
