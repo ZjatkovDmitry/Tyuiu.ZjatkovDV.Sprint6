@@ -9,7 +9,7 @@ namespace Tyuiu.ZjatkovDV.Sprint6.Task5.V14.Lib
         {
             return File.ReadAllText(path)
                       .Split('\n', StringSplitOptions.RemoveEmptyEntries)
-                      .Select(s => double.Parse(s, CultureInfo.InvariantCulture))
+                      .Select(s => double.Parse(s))
                       .Where(s => s >= 10)
                       .ToArray();
         }
