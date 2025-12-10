@@ -82,9 +82,11 @@
             dataGridViewOut.AllowUserToAddRows = false;
             dataGridViewOut.AllowUserToDeleteRows = false;
             dataGridViewOut.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewOut.ColumnHeadersVisible = false;
             dataGridViewOut.Location = new Point(592, 22);
             dataGridViewOut.Name = "dataGridViewOut";
             dataGridViewOut.ReadOnly = true;
+            dataGridViewOut.RowHeadersVisible = false;
             dataGridViewOut.Size = new Size(609, 424);
             dataGridViewOut.TabIndex = 1;
             // 
@@ -93,9 +95,11 @@
             dataGridViewIn.AllowUserToAddRows = false;
             dataGridViewIn.AllowUserToDeleteRows = false;
             dataGridViewIn.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewIn.ColumnHeadersVisible = false;
             dataGridViewIn.Location = new Point(6, 22);
             dataGridViewIn.Name = "dataGridViewIn";
             dataGridViewIn.ReadOnly = true;
+            dataGridViewIn.RowHeadersVisible = false;
             dataGridViewIn.Size = new Size(580, 424);
             dataGridViewIn.TabIndex = 0;
             // 
