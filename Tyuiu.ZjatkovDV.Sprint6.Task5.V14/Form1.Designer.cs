@@ -37,6 +37,7 @@
             chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             dataGridView1 = new DataGridView();
             Column1 = new DataGridViewTextBoxColumn();
+            openFileDialog1 = new OpenFileDialog();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)chart1).BeginInit();
@@ -106,6 +107,10 @@
             Column1.Name = "Column1";
             Column1.ReadOnly = true;
             // 
+            // openFileDialog1
+            // 
+            openFileDialog1.FileName = "openFileDialog1";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -114,7 +119,7 @@
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Спринт 6 | Таск 5 | Вариант 14 | Зятьков Д.В.";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
@@ -131,5 +136,6 @@
         private DataGridView dataGridView1;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private DataGridViewTextBoxColumn Column1;
+        private OpenFileDialog openFileDialog1;
     }
 }
