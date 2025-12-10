@@ -9,7 +9,6 @@ namespace Tyuiu.ZjatkovDV.Sprint6.Task7.V19.Test
         {
             var result = new DataService();
             Assert.Equal(result.GetMatrix("C:\\DataSprint6\\InPutDataFileTask7V19.csv"), result.GetMatrix("C:\\DataSprint6\\InPutDataFileTask7V19.csv"));
-
         }
     }
 }

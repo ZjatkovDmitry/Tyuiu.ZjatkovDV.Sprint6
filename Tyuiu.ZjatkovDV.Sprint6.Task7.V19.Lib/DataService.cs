@@ -23,13 +23,19 @@ namespace Tyuiu.ZjatkovDV.Sprint6.Task7.V19.Lib
                 {
                     if (int.TryParse(values[j], out int number))
                     {
-                        matrix[i, j] = number;
+                        if (i == 1 && number % 2 == 0)
+                        {
+                            matrix[i, j] = 2;
+                        }
+                        else
+                        {
+                            matrix[i, j] = number;
+                        }
                     }
                 }
             }
 
             return matrix;
-
         }
     }
 }
